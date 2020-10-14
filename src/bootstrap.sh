@@ -43,7 +43,7 @@ build_lua () {
   fi
   local target_dir=$3
 
-  local lua_url="http://www.lua.org/ftp/lua-$version.tar.gz"
+  local lua_url="https://www.lua.org/ftp/lua-$version.tar.gz"
 
   if [[ ! -e "./build/lua-$version.tar.gz" ]]
   then

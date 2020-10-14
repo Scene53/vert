@@ -151,7 +151,7 @@ function M.init(opts)
   local PLATFORM          = opts["platform"] or utils.get_os()
 
     local LUAROCKS_URI      = LUAROCKS_URI or "http://luarocks.org/releases/"
-  local LUA_URI           = "http://www.lua.org/ftp/"
+  local LUA_URI           = "https://www.lua.org/ftp/"
   local LUA_FILENAME      = "lua-"..LUA_VERSION..".tar.gz"
   local LUAROCKS_FILENAME = "luarocks-"..LUAROCKS_VERSION..".tar.gz"
   local BUILD_DIR         = DIRECTORY.."/build/"
